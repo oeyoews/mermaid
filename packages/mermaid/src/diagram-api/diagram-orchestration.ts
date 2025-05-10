@@ -81,7 +81,8 @@ export const addDiagrams = () => {
     flowchart,
     flowchartV2,
     info,
-    state
+    state,
+    stateV2
     // c4,
     // kanban,
     // classDiagramV2,

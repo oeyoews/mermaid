@@ -15,6 +15,7 @@
     "git graph"
   ],
   "scripts": {
+    "build:tw": "pnpm build:esbuild --mermaid && node patch.tiny.mjs",
     "build": "pnpm build:esbuild && pnpm build:types",
     "build:esbuild": "pnpm run -r clean && tsx .esbuild/build.ts",
     "build:mermaid": "pnpm build:esbuild --mermaid",
