@@ -80,7 +80,8 @@ export const addDiagrams = () => {
     pie,
     flowchart,
     flowchartV2,
-    info
+    info,
+    state
     // c4,
     // kanban,
     // classDiagramV2,
