@@ -139,7 +139,9 @@
     },
     "onlyBuiltDependencies": [
       "cypress",
-      "esbuild"
+      "esbuild",
+      "sharp",
+      "vue-demi"
     ]
   }
 }
